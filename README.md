@@ -15,22 +15,30 @@
 		 box-shadow: 0px 0px 5px grey;
 			
 		}
+        fieldset {
+    background-color: #CCCCFF;
+    border:  1px solid #ccc;
+    margin:  2em 0;
+    padding:  1em;
+        }
 		
 	</style>
 </head>
-<body>
+<body bgcolor="">
 	<form>
+        <fieldset >
 		<h2>Login</h2>
 		<label for="username"><b>Username</b></label>
 		<input type="text" placeholder="Enter Username" name="username" required>
 
-		<label for="password"><b>password</b></label>
+		<label for="password"><b>Password</b></label>
 		<input type="password" placeholder="Enter Password" name="password" required>
 
 		<button type="submit">Login</button>
 		<label>
 			<input type="checkbox" checked="checked" name="remember"> Remember me
 		</label>
+        </fieldset>
 	</form>
 	
 </body>
